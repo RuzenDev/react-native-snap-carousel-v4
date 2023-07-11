@@ -1150,6 +1150,7 @@ export default class Carousel extends Component {
     }
 
     snapToPrev (animated = true, fireCallback = true) {
+        console.log("snap to prev")
         const itemsLength = this._getCustomDataLength();
 
         let newIndex = this._activeItem - 1;
